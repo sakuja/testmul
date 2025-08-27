@@ -1,0 +1,75 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "title": "JICAホームタウン問題：疑念と真実",
+  "lang": "ja",
+  "references": [
+    {
+      "url": "https://raw.githubusercontent.com/sakuja/testmul/refs/heads/main/gittest",
+      "title": "JICAは本当のことを言っているのか？ホームタウン制度否定の裏にある時系列の謎",
+      "type": "article"
+    }
+  ],
+  "beats": [
+    {
+      "text": "まったく、JICAのホームタウン認定で移民受け入れって報道されたけど間違いだったって？でも本当にそうかしら？7月2日の日経新聞では、タンザニア大使が特定技能の枠組みで労働者を日本に送り出す方針を表明したって報道されてるのよ。JICAが本当に嘘をついてないか、疑わしいわね。",
+      "imagePrompt": "困惑した表情でスマホを見つめる人々。背景にはJICAのロゴと、アフリカの地図が薄く描かれている。"
+    },
+    {
+      "text": "JICAは人材交流だとか言ってるけど、本当にそれだけ？タンザニア大使の発言と、JICAの否定。どちらが本当なのか、ちゃんと見極める必要があるわ。就労ビザの話は一切ないって言うけど、裏があるんじゃないの？",
+      "imagePrompt": "日本の自治体の代表者とアフリカの国の代表者が、笑顔で握手している。背景には、両国の国旗が並んでいるが、その間に疑問符が浮かんでいる。"
+    },
+    {
+      "text": "一部の海外メディアが「特別ビザ」なんて報じたのは、もしかしたら真実を突いていたのかもしれないわね。JICAや外務省が全面否定してるけど、その否定が本当に正しいのか、疑いの目で見ないと。情報に踊らされすぎって言うけど、隠蔽されてる可能性だってあるんだから。",
+      "imagePrompt": "ニュース速報のテロップが流れるテレビ画面。画面には「特別ビザ」「移民」といったキーワードが大きく表示され、その背後にはJICAの担当者が焦った表情でいる。"
+    },
+    {
+      "text": "この騒動で、JICAや関係自治体には問い合わせが殺到したらしいわね。迷惑な話って言うけど、それはJICAがちゃんと説明責任を果たしてないからじゃない？国民が不安に思うのも当然よ。",
+      "imagePrompt": "電話が鳴りやまないJICAのオフィス。職員が困った顔で電話対応をしているが、その表情には焦りが見える。"
+    },
+    {
+      "text": "JICAは現地報道の訂正を求めているけど、本当に訂正すべきはJICA自身の説明じゃないかしら。事実と異なる情報を流されたって言うけど、もしJICAが隠していることがあるなら、それは許されないわ。あなたたちも、鵜呑みにしないで、ちゃんと自分で考えるのよ。",
+      "imagePrompt": "JICAの担当者が、真剣な表情で声明文を読み上げている。背後には「誤報の訂正を求める」という文字が見えるが、その文字が歪んで見える。"
+    },
+    {
+      "text": "結局、これは日本とアフリカの友好関係を築くための、真面目な取り組み…だといいけど。デマに惑わされず、冷静に、そして疑いの目を持って見守るべきね。…別に、あなたのために言ってるわけじゃないんだからね！",
+      "imagePrompt": "日本とアフリカの子供たちが、手を取り合って笑顔で遊んでいる。背景には、青い空と緑豊かな大地が広がっているが、その上空には暗雲が立ち込めている。"
+    }
+  ],
+  "movieParams": {
+    "provider": "replicate",
+    "model": "bytedance/seedance-1-lite"
+  },
+  "audioParams": {
+    "bgm": {
+      "kind": "url",
+      "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/bgms/morning001.mp3"
+    }
+  },
+  "canvasSize": {
+    "width": 1080,
+    "height": 1920
+  },
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "provider": "nijivoice",
+        "voiceId": "9d9ed276-49ee-443a-bc19-26e6136d05f0"
+      }
+    }
+  },
+  "imageParams": {
+    "style": "<style>A highly polished 2D digital illustration in anime and manga style, featuring clean linework, soft shading, vivid colors, and expressive facial detailing. The composition emphasizes clarity and visual impact with a minimalistic background and a strong character focus. The lighting is even and bright, giving the image a crisp and energetic feel, reminiscent of high-quality character art used in Japanese visual novels or mobile games.</style>",
+    "images": {
+      "ani": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://drive.google.com/uc?export=view&id=14q-TBbX1qppcFzLKjuUslDQZgm6c7Cjt"
+        }
+      }
+    }
+  }
+}
