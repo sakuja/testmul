@@ -1,0 +1,113 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "title": "太陽光パネルのリサイクル、実は超面倒くさい件について",
+  "lang": "ja",
+  "references": [
+    {
+      "url": "https://www.env.go.jp/content/000271532.pdf",
+      "title": "（参考資料）太陽光発電設備のリサイクル制度の検討状況（環境省）",
+      "type": "gov-report"
+    },
+    {
+      "url": "https://www.env.go.jp/council/content/03recycle03/000272494.pdf",
+      "title": "太陽光発電設備のリサイクル制度のあり方について（案） 参考（環境省）",
+      "type": "gov-report"
+    },
+    {
+      "url": "https://www.meti.go.jp/shingikai/sankoshin/sangyo_gijutsu/resource_circulation/solar_power_generation/pdf/001_03_00.pdf",
+      "title": "太陽光発電設備の廃棄・リサイクルをめぐる状況及び論点（経産省）",
+      "type": "gov-report"
+    },
+    {
+      "url": "https://www.iea.org/energy-system/renewables/solar-pv",
+      "title": "Solar PV（IEA）",
+      "type": "web"
+    },
+    {
+      "url": "https://www.qualenergia.it/wp-content/uploads/2024/06/ITRPV-15th-Edition-2024-2.pdf",
+      "title": "ITRPV 15th Edition 2024（国際太陽光ロードマップ）",
+      "type": "report"
+    },
+    {
+      "url": "https://kahoku.news/articles/knp2025082701001840.html",
+      "title": "【独自】太陽光パネル再利用、義務化断念 政府（共同通信配信／河北新報）",
+      "type": "news"
+    },
+    {
+      "url": "https://www.env.go.jp/content/000245687.pdf",
+      "title": "太陽光発電設備のリサイクル等の推進に向けたガイドライン（環境省）",
+      "type": "gov-guideline"
+    }
+  ],
+  "beats": [
+    {
+      "text": "太陽光パネルのリサイクル、簡単だと思ってた？甘いわね。直近の実態だと、回収された中でリサイクルはだいたい5割前後、リユースはおよそ2割。数字だけ見ると“進んでる”ようで、現場はまだまだ大変なのよ。",
+      "imagePrompt": "A girl with a skeptical expression pointing at a chart showing around 50% recycling and about 20% reuse, with broken and intact solar panels scattered around"
+    },
+    {
+      "text": "まず、パネルの構造が超ややこしい。ガラス、アルミフレーム、樹脂（封止材）、シリコンセルが一体化してて、強力に接着されてる。これをきれいに分けるのは…まさに分解パズル。工程も設備も手間がかかるわけ。",
+      "imagePrompt": "A cross-section view of a solar panel showing multiple layers tightly bonded together, with arrows indicating the difficulty of separation, like a complex puzzle"
+    },
+    {
+      "text": "しかも一部のタイプは鉛ハンダやカドミウム化合物を含むことがあるから、専門的な管理と処理が必須。素人が適当に扱えば環境汚染まっしぐら…ここは本当に注意が必要よ。",
+      "imagePrompt": "Workers in full protective gear handling solar panels with hazardous material warning symbols floating around lead and cadmium components"
+    },
+    {
+      "text": "受け皿だって十分とは言い難い。国内の処理能力は令和3年度時点で年間およそ7万トン。一方で、2030年代半ばには排出が本格化して、条件次第で最大50万トン/年規模との推計も。能力も地域カバーも、増強はこれからなの。",
+      "imagePrompt": "A map of Japan showing a few specialized recycling facilities and a growing bar chart toward the 2030s indicating up to 500,000 tons per year of waste"
+    },
+    {
+      "text": "それと“レアメタルの山”って期待、ちょっと誇張気味。世界の出荷のほとんど（約98％）はシリコン系で、希少金属はわずか。化合物系（CdTeやCIGS）もあるけど、占める割合は小さいのよ。",
+      "imagePrompt": "A pie chart showing ~98% silicon-based panels with minimal rare metals, compared to a tiny slice of compound-type panels with some rare elements"
+    },
+    {
+      "text": "銀？もちろん入ってる。ただし“方式とワット数で変わる”のがポイント。一般的な結晶Siモジュールなら、だいたい1枚あたり4〜7グラム程度。昔よりは着実に削減されてきてるわ。",
+      "imagePrompt": "A small pile of silver next to a tiny amount of other rare metals (indium, gallium, selenium) with question marks, contrasting with a large pile of common materials"
+    },
+    {
+      "text": "そして2025年8月、“義務化は見送り（断念方針）”という報道も出た。リサイクル費用を誰が負担するか——制度設計が難しいのよね。技術的には可能でも、コストと手間の壁は厚いってわけ。",
+      "imagePrompt": "Government officials looking overwhelmed by a complex flowchart showing recycling stakeholders and costs, with newspaper headlines about mandate being dropped"
+    },
+    {
+      "text": "結局のところ、太陽光パネルのリサイクルは「できるけど面倒くさい」。2030年代の排出増に備えて、分離・回収をもっと簡単に、安くできる技術と体制づくりが急務。…他人事じゃないわよ？いまのうちに関心もってね！",
+      "imagePrompt": "A girl with a resigned but determined expression, standing next to a timeline showing the approaching 2030s waste surge, with research facilities working on new recycling technologies in the background"
+    }
+  ],
+  "movieParams": {
+    "provider": "replicate",
+    "model": "bytedance/seedance-1-lite"
+  },
+  "audioParams": {
+    "bgm": {
+      "kind": "url",
+      "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/bgms/morning001.mp3"
+    }
+  },
+  "canvasSize": {
+    "width": 1080,
+    "height": 1920
+  },
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "provider": "nijivoice",
+        "voiceId": "9d9ed276-49ee-443a-bc19-26e6136d05f0"
+      }
+    }
+  },
+  "imageParams": {
+    "style": "<style>A highly polished 2D digital illustration in anime and manga style, featuring clean linework, soft shading, vivid colors, and expressive facial detailing. The composition emphasizes clarity and visual impact with a minimalistic background and a strong character focus. The lighting is even and bright, giving the image a crisp and energetic feel, reminiscent of high-quality character art used in Japanese visual novels or mobile games.</style>",
+    "images": {
+      "ani": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://drive.google.com/uc?export=view&id=14q-TBbX1qppcFzLKjuUslDQZgm6c7Cjt"
+        }
+      }
+    }
+  }
+}

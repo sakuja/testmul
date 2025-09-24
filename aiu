@@ -1,0 +1,75 @@
+{
+  "$mulmocast": {
+    "version": "1.1",
+    "credit": "closing"
+  },
+  "title": "クルド人被告の控訴事件：法廷での波紋",
+  "lang": "ja",
+  "references": [
+    {
+      "url": "https://raw.githubusercontent.com/sakuja/testmul/refs/heads/main/kuru2",
+      "title": "性的暴行疑いのクルド人被告が控訴 判決後に傍聴席の母親は「なにもしてないのに」叫ぶ",
+      "type": "article"
+    }
+  ],
+  "beats": [
+    {
+      "text": "べ、別にあなたたちに教えてあげたくて話すわけじゃないんだから！でも最近話題になってる裁判のニュースがあるのよ。性的暴行の疑いで有罪判決を受けたクルド人被告が控訴したって話。ちゃんと聞いてなさいよね！",
+      "imagePrompt": "A courtroom exterior with classical architecture, showing the steps leading to the entrance with pillars, under a cloudy sky"
+    },
+    {
+      "text": "まったく...詳しく説明してあげるわ。この事件は性的暴行の疑いで起訴されたクルド人男性が、第一審で有罪判決を受けたの。でも被告側はこの判決に納得できなくて、控訴することにしたのよ。わ、分かってる？控訴っていうのは判決に不服がある時に上級裁判所に再審理を求めることなんだから！",
+      "imagePrompt": "Inside a Japanese courtroom showing the judge's bench, defendant's seat, and prosecutor's area with formal wooden furnishings"
+    },
+    {
+      "text": "判決後の法廷で、すごいドラマがあったのよ。傍聴席にいた被告の母親が「なにもしてないのに！」って叫んだんですって。記事によると、母親は息子の無実を信じて感情的になっちゃったみたい。ま、まあ...親としての気持ちは分からなくもないけど...",
+      "imagePrompt": "A middle-aged woman standing up emotionally in the courtroom gallery, with court officers nearby trying to maintain order"
+    },
+    {
+      "text": "この事件、実は日本に住む外国人コミュニティと司法制度の関係について、いろんな議論を呼んでるのよ。言語の壁とか、文化の違いとか、法的手続きの理解とか...複雑な問題がたくさんあるわけ。べ、別に同情してるわけじゃないけど、公正な裁判を受ける権利は誰にでもあるものだから。",
+      "imagePrompt": "A diverse group of people outside the courthouse, some holding documents, representing different communities discussing the case"
+    },
+    {
+      "text": "控訴審では、第一審の証拠や証言がもう一度検討されることになるわ。新しい証拠が出てくる可能性もあるし、判決が覆ることだってあり得るの。だ、だから最後まで見守る必要があるのよ！司法制度ってそういうものなんだから。",
+      "imagePrompt": "Legal documents and evidence files spread on a desk with a gavel, representing the appeals process"
+    },
+    {
+      "text": "この事件が示してるのは、多文化社会における司法の課題なのよ。被害者の権利も、被告人の権利も、どちらも大切にしながら真実を追求しなきゃいけないんだから。あ、あなたたちもちゃんと考えなさいよね！社会の一員として、こういう問題から目を背けちゃダメなんだから！",
+      "imagePrompt": "The scales of justice balanced against a backdrop showing both Japanese and multicultural elements, symbolizing fairness in a diverse society"
+    }
+  ],
+  "movieParams": {
+    "provider": "replicate",
+    "model": "bytedance/seedance-1-lite"
+  },
+  "audioParams": {
+    "bgm": {
+      "kind": "url",
+      "url": "https://github.com/receptron/mulmocast-media/raw/refs/heads/main/bgms/morning001.mp3"
+    }
+  },
+  "canvasSize": {
+    "width": 1080,
+    "height": 1920
+  },
+  "speechParams": {
+    "speakers": {
+      "Presenter": {
+        "provider": "nijivoice",
+        "voiceId": "9d9ed276-49ee-443a-bc19-26e6136d05f0"
+      }
+    }
+  },
+  "imageParams": {
+    "style": "<style>A highly polished 2D digital illustration in anime and manga style, featuring clean linework, soft shading, vivid colors, and expressive facial detailing. The composition emphasizes clarity and visual impact with a minimalistic background and a strong character focus. The lighting is even and bright, giving the image a crisp and energetic feel, reminiscent of high-quality character art used in Japanese visual novels or mobile games.</style>",
+    "images": {
+      "ani": {
+        "type": "image",
+        "source": {
+          "kind": "url",
+          "url": "https://drive.google.com/uc?export=view&id=14q-TBbX1qppcFzLKjuUslDQZgm6c7Cjt"
+        }
+      }
+    }
+  }
+}
